@@ -56,7 +56,7 @@ https://dnsdumpster.com/
 
 
 ```
-
+nslookup -type=A tryhackme.com 1.1.1.1
 ```
 
 
