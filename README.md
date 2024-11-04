@@ -28,7 +28,7 @@ una rete o un'organizzazione al fine di identificare vulnerabilità e potenziali
    - Questo approccio è più invasivo e può facilmente essere rilevato da sistemi di sicurezza, come intrusion detection systems (IDS). Tuttavia, fornisce informazioni più dettagliate e specifiche sulle vulnerabilità e sulla configurazione della rete.
 
 
-**Comandi utili**
+**Comandi utili** <br><br>
 whois to query WHOIS servers <br>
 nslookup to query DNS servers <br>
 dig to query DNS servers<br>
