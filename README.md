@@ -37,14 +37,21 @@ dig to query DNS servers<br>
 
 
 
-Comandi utilizzati : 
+Siti utili  : 
+
+**shodan**
+https://www.shodan.io/
+
+![Screenshot 2024-11-04 alle 15 05 24](https://github.com/user-attachments/assets/5053db36-ad21-40f9-b6df-307fe8a874f6)
+
 
 
 https://dnsdumpster.com/
 
 
+
+
 ```
-ping google.it
 
 ```
 
