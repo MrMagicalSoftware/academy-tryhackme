@@ -13,3 +13,9 @@ Comandi utilizzati :
 
 
 https://dnsdumpster.com/
+
+
+```
+ping google.it
+
+```
