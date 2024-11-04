@@ -61,6 +61,15 @@ nslookup -type=A tryhackme.com 1.1.1.1
 I recod disponibili sono : A , AAAA , MX , TXT , SOA , CNAME
 
 
-```
-touch prova.txt
-```
+**tabella riassuntiva**
+
+
+![Screenshot 2024-11-04 alle 15 17 28](https://github.com/user-attachments/assets/84775497-0d30-4ab2-a2fe-e46dab91df75)
+
+
+
+
+
+
+
+
