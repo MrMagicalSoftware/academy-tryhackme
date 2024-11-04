@@ -4,6 +4,39 @@
 
 
 
+## Fasi dell' hacking 
+
+
+
+
+    Ricognizione:
+        Questa è la fase iniziale in cui l'hacker raccoglie informazioni sul target. Può includere la ricognizione passiva (analisi di dati pubblici) e attiva (scansioni di rete). L'obiettivo è ottenere quante più informazioni possibili su indirizzi IP, domini, servizi in esecuzione e potenziali vulnerabilità.
+
+    Scansione:
+        In questa fase, l'hacker utilizza strumenti per identificare i dispositivi attivi, le porte aperte e i servizi in esecuzione sulla rete. Questo aiuta a mappare la rete e a identificare potenziali punti deboli.
+
+    Accesso:
+        Dopo aver identificato le vulnerabilità, l'hacker tenta di ottenere accesso non autorizzato al sistema. Questo può avvenire attraverso exploit di vulnerabilità, attacchi di forza bruta, phishing o altre tecniche.
+
+    Mantenimento dell'accesso:
+        Una volta ottenuto l'accesso, l'hacker cerca di stabilire un modo per mantenere l'accesso al sistema. Questo può includere l'installazione di backdoor, rootkit o altri strumenti che consentono di rientrare nel sistema anche dopo che è stato ripristinato.
+
+    Esfiltrazione dei dati:
+        In questa fase, l'hacker cerca di rubare dati sensibili o informazioni riservate. Questo può includere dati finanziari, informazioni personali o segreti aziendali.
+
+    Copertura delle tracce:
+        Infine, l'hacker cerca di cancellare o mascherare le proprie tracce per evitare di essere rilevato. Questo può includere la modifica dei log di sistema, l'eliminazione di file o l'uso di tecniche di offuscamento.
+
+    Analisi post-attacco (opzionale):
+        In alcuni casi, l'hacker può anche condurre un'analisi post-attacco per valutare il successo dell'attacco e identificare eventuali aree di miglioramento per attacchi futuri.
+
+
+
+
+
+
+
+
 ### Esercitazione su Passive Reconnaissance
 Room Link : https://tryhackme.com/r/room/passiverecon
 
