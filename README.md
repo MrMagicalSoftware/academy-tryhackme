@@ -29,9 +29,9 @@ una rete o un'organizzazione al fine di identificare vulnerabilità e potenziali
 
 
 **Comandi utili**
-whois to query WHOIS servers
-nslookup to query DNS servers
-dig to query DNS servers
+whois to query WHOIS servers <br>
+nslookup to query DNS servers <br>
+dig to query DNS servers<br>
 
 
 
