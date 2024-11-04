@@ -58,6 +58,7 @@ https://dnsdumpster.com/
 ```
 nslookup -type=A tryhackme.com 1.1.1.1
 ```
+I recod disponibili sono : A , AAAA , MX , TXT , SOA , CNAME
 
 
 ```
