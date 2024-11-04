@@ -39,14 +39,18 @@ dig to query DNS servers<br>
 
 Siti utili  : 
 
-**shodan**
+**shodan** <br>
 https://www.shodan.io/
 
 ![Screenshot 2024-11-04 alle 15 05 24](https://github.com/user-attachments/assets/5053db36-ad21-40f9-b6df-307fe8a874f6)
 
 
 
+**dns dumpster** <br>
+
 https://dnsdumpster.com/
+
+![Screenshot 2024-11-04 alle 15 09 20](https://github.com/user-attachments/assets/805a40fb-595a-4027-bb6a-c6ab9bcd46a3)
 
 
 
