@@ -135,6 +135,15 @@ I recod disponibili sono : A , AAAA , MX , TXT , SOA , CNAME
 
 
 
+- **Esercizio 1.3**: Ottieni i server di posta (record MX) per un dominio.
+  ```
+  nslookup -query=mx gmail.com
+```
+  **Domanda**: Qual è la priorità dei server di posta restituiti? Qual è la logica dietro la presenza di più server MX?
+
+
+
+
 ______________________
 
 
