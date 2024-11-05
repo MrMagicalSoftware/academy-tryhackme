@@ -140,7 +140,6 @@ I recod disponibili sono : A , AAAA , MX , TXT , SOA , CNAME
 
   **Domanda**: Qual è la priorità dei server di posta restituiti? Qual è la logica dietro la presenza di più server MX?
 
----
 
 ### 2. `dig`
 `dig` (Domain Information Groper) è uno strumento avanzato per interrogare DNS, utile per avere informazioni dettagliate sui record di un dominio.
