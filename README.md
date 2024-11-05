@@ -118,18 +118,26 @@ I recod disponibili sono : A , AAAA , MX , TXT , SOA , CNAME
  ```
   nslookup www.google.com
   ```
+
+
   **Domanda**: Qual è l'indirizzo IP restituito? Questo IP può cambiare nel tempo? Perché?
 
 - **Esercizio 1.2**: Usa `nslookup` per interrogare un DNS specifico.
+
+ 
  ```
   nslookup www.google.com 8.8.8.8
 ```
+
+
   **Domanda**: Quale differenza trovi nel risultato rispetto al DNS predefinito?
 
 - **Esercizio 1.3**: Ottieni i server di posta (record MX) per un dominio.
   ```
   nslookup -query=mx gmail.com
 ```
+
+
   **Domanda**: Qual è la priorità dei server di posta restituiti? Qual è la logica dietro la presenza di più server MX?
 
 ---
@@ -140,6 +148,7 @@ I recod disponibili sono : A , AAAA , MX , TXT , SOA , CNAME
 **Esercizi**
 
 - **Esercizio 2.1**: Utilizza `dig` per ottenere informazioni di base su un dominio.
+
 ```
   dig www.google.com
 ```
@@ -154,13 +163,15 @@ I recod disponibili sono : A , AAAA , MX , TXT , SOA , CNAME
   **Domanda**: Cosa rappresentano i record `A`, `MX` e `TXT`? Come sono utili?
 
 - **Esercizio 2.3**: Usa `dig` per interrogare record NS di un dominio.
+
  ```
   dig google.com NS
  ```
   **Domanda**: Quali server DNS sono autoritativi per il dominio?
 
 - **Esercizio 2.4**: Fai una query inversa (reverse lookup) per ottenere il nome di dominio da un indirizzo IP.
- ```
+
+```
   dig -x 8.8.8.8
 ```
   **Domanda**: Che risultato ottieni? Perché il reverse lookup potrebbe essere utile?
@@ -179,7 +190,8 @@ I recod disponibili sono : A , AAAA , MX , TXT , SOA , CNAME
   **Domanda**: Quali informazioni riguardanti il dominio puoi vedere (registrante, date di creazione e scadenza, ecc.)?
 
 - **Esercizio 3.2**: Analizza le informazioni sugli IP.
-  ```
+
+```
   whois 8.8.8.8
   ```
   **Domanda**: Chi è il proprietario dell’indirizzo IP? Come viene indicata la rete a cui appartiene?
