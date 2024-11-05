@@ -100,6 +100,108 @@ I recod disponibili sono : A , AAAA , MX , TXT , SOA , CNAME
 ![Screenshot 2024-11-04 alle 15 17 28](https://github.com/user-attachments/assets/84775497-0d30-4ab2-a2fe-e46dab91df75)
 
 
+---
+
+## Obiettivi
+1. Comprendere il funzionamento di base di `nslookup`, `dig`, e `whois`.
+2. Imparare a raccogliere informazioni DNS e di registrazione di un dominio.
+3. Acquisire la capacità di interpretare i risultati di ciascun comando.
+
+---
+
+### 1. `nslookup`
+`nslookup` è un comando usato per interrogare i server DNS e ottenere informazioni sui nomi di dominio e i relativi indirizzi IP.
+
+**Esercizi**
+
+- **Esercizio 1.1**: Utilizza `nslookup` per trovare l'indirizzo IP associato a un dominio.
+ ```
+  nslookup www.google.com
+  ```
+  **Domanda**: Qual è l'indirizzo IP restituito? Questo IP può cambiare nel tempo? Perché?
+
+- **Esercizio 1.2**: Usa `nslookup` per interrogare un DNS specifico.
+ ```
+  nslookup www.google.com 8.8.8.8
+```
+  **Domanda**: Quale differenza trovi nel risultato rispetto al DNS predefinito?
+
+- **Esercizio 1.3**: Ottieni i server di posta (record MX) per un dominio.
+  ```
+  nslookup -query=mx gmail.com
+```
+  **Domanda**: Qual è la priorità dei server di posta restituiti? Qual è la logica dietro la presenza di più server MX?
+
+---
+
+### 2. `dig`
+`dig` (Domain Information Groper) è uno strumento avanzato per interrogare DNS, utile per avere informazioni dettagliate sui record di un dominio.
+
+**Esercizi**
+
+- **Esercizio 2.1**: Utilizza `dig` per ottenere informazioni di base su un dominio.
+```
+  dig www.google.com
+```
+  **Domanda**: Quali informazioni aggiuntive rispetto a `nslookup` puoi vedere?
+
+- **Esercizio 2.2**: Esegui una query su specifici record DNS (A, MX, TXT).
+
+  dig google.com A
+  dig google.com MX
+  dig google.com TXT
+ 
+  **Domanda**: Cosa rappresentano i record `A`, `MX` e `TXT`? Come sono utili?
+
+- **Esercizio 2.3**: Usa `dig` per interrogare record NS di un dominio.
+ ```
+  dig google.com NS
+ ```
+  **Domanda**: Quali server DNS sono autoritativi per il dominio?
+
+- **Esercizio 2.4**: Fai una query inversa (reverse lookup) per ottenere il nome di dominio da un indirizzo IP.
+ ```
+  dig -x 8.8.8.8
+```
+  **Domanda**: Che risultato ottieni? Perché il reverse lookup potrebbe essere utile?
+
+---
+
+### 3. `whois`
+`whois` è un comando che restituisce informazioni di registrazione su un dominio o un indirizzo IP, come il proprietario, la data di scadenza, ecc.
+
+**Esercizi**
+
+- **Esercizio 3.1**: Usa `whois` per ottenere le informazioni di registrazione di un dominio.
+  ```
+  whois google.com
+```
+  **Domanda**: Quali informazioni riguardanti il dominio puoi vedere (registrante, date di creazione e scadenza, ecc.)?
+
+- **Esercizio 3.2**: Analizza le informazioni sugli IP.
+  ```
+  whois 8.8.8.8
+  ```
+  **Domanda**: Chi è il proprietario dell’indirizzo IP? Come viene indicata la rete a cui appartiene?
+
+- **Esercizio 3.3**: Verifica un dominio che appartiene a un’azienda o a un'organizzazione meno conosciuta.
+ ```
+  whois openai.com
+```
+  **Domanda**: Quali differenze trovi rispetto a un dominio di grandi aziende? Esistono delle restrizioni o delle differenze di privacy?
+
+---
+
+### Riflessioni Finali
+1. **Confronto tra `nslookup`, `dig`, e `whois`**: Quali sono le differenze principali tra questi comandi? Quando è consigliabile usare uno rispetto a un altro?
+2. **Privacy e Sicurezza**: Quali rischi di sicurezza e privacy possono derivare dalla visibilità delle informazioni sui domini?
+
+---
+
+
+
+
+
 ______________________
 
 
