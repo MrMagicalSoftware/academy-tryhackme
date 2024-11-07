@@ -225,9 +225,10 @@ _______________________
 
 
 
-Comandi Linux : 
+# Comandi Linux : 
 https://linux.die.net/man/
 
+![Screenshot 2024-11-07 alle 16 40 59](https://github.com/user-attachments/assets/d60303c7-6115-47c1-9d27-2c5a65592995)
 
 
 
