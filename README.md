@@ -234,10 +234,14 @@ https://linux.die.net/man/
 
 **Switching users**
 
-Switching between users on a Linux install is easy work thanks to the su command. Unless you are the root user (or using root permissions through sudo), then you are required to know two things to facilitate this transition of user accounts:
+Switching between users on a Linux install is easy work thanks to the su command. U
+nless you are the root user (or using root permissions through sudo), then you are required to know two things to facilitate this transition of user accounts:
 
-    The user we wish to switch to
-    The user's password
+The user we wish to switch to
+The user's password
+
+
+
 
 ```
 su
