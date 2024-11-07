@@ -192,12 +192,12 @@ I recod disponibili sono : A , AAAA , MX , TXT , SOA , CNAME
   ```
   whois 8.8.8.8
   ```
-  **Domanda**: Chi è il proprietario dell’indirizzo IP? Come viene indicata la rete a cui appartiene?
+**Domanda**: Chi è il proprietario dell’indirizzo IP? Come viene indicata la rete a cui appartiene?
 
 - **Esercizio 3.3**: Verifica un dominio che appartiene a un’azienda o a un'organizzazione meno conosciuta.
- ```
+
   whois openai.com
-```
+
   **Domanda**: Quali differenze trovi rispetto a un dominio di grandi aziende? Esistono delle restrizioni o delle differenze di privacy?
 
 
