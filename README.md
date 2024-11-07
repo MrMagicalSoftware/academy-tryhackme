@@ -189,9 +189,9 @@ I recod disponibili sono : A , AAAA , MX , TXT , SOA , CNAME
   **Domanda**: Quali informazioni riguardanti il dominio puoi vedere (registrante, date di creazione e scadenza, ecc.)?
 
 - **Esercizio 3.2**: Analizza le informazioni sugli IP.
-  ```
+  
   whois 8.8.8.8
-  ```
+ 
 **Domanda**: Chi è il proprietario dell’indirizzo IP? Come viene indicata la rete a cui appartiene?
 
 - **Esercizio 3.3**: Verifica un dominio che appartiene a un’azienda o a un'organizzazione meno conosciuta.
