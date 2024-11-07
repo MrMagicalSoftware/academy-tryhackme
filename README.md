@@ -183,9 +183,9 @@ I recod disponibili sono : A , AAAA , MX , TXT , SOA , CNAME
 **Esercizi**
 
 - **Esercizio 3.1**: Usa `whois` per ottenere le informazioni di registrazione di un dominio.
-  ```
+ 
   whois google.com
-```
+
   **Domanda**: Quali informazioni riguardanti il dominio puoi vedere (registrante, date di creazione e scadenza, ecc.)?
 
 - **Esercizio 3.2**: Analizza le informazioni sugli IP.
