@@ -150,29 +150,29 @@ I recod disponibili sono : A , AAAA , MX , TXT , SOA , CNAME
 **Esercizi**
 
 - **Esercizio 2.1**: Utilizza `dig` per ottenere informazioni di base su un dominio.
-
+```
   dig www.google.com
-
+```
   **Domanda**: Quali informazioni aggiuntive rispetto a `nslookup` puoi vedere?
 
 - **Esercizio 2.2**: Esegui una query su specifici record DNS (A, MX, TXT).
-
+```
   dig google.com A
   dig google.com MX
   dig google.com TXT
- 
+ ```
   **Domanda**: Cosa rappresentano i record `A`, `MX` e `TXT`? Come sono utili?
 
 - **Esercizio 2.3**: Usa `dig` per interrogare record NS di un dominio.
- 
+ ```
   dig google.com NS
- 
+ ```
   **Domanda**: Quali server DNS sono autoritativi per il dominio?
 
 - **Esercizio 2.4**: Fai una query inversa (reverse lookup) per ottenere il nome di dominio da un indirizzo IP.
- 
+ ```
   dig -x 8.8.8.8
-
+```
   **Domanda**: Che risultato ottieni? Perché il reverse lookup potrebbe essere utile?
 
 ---
@@ -183,21 +183,21 @@ I recod disponibili sono : A , AAAA , MX , TXT , SOA , CNAME
 **Esercizi**
 
 - **Esercizio 3.1**: Usa `whois` per ottenere le informazioni di registrazione di un dominio.
-  
+  ```
   whois google.com
-
+```
   **Domanda**: Quali informazioni riguardanti il dominio puoi vedere (registrante, date di creazione e scadenza, ecc.)?
 
 - **Esercizio 3.2**: Analizza le informazioni sugli IP.
-  
+  ```
   whois 8.8.8.8
-  
+  ```
   **Domanda**: Chi è il proprietario dell’indirizzo IP? Come viene indicata la rete a cui appartiene?
 
 - **Esercizio 3.3**: Verifica un dominio che appartiene a un’azienda o a un'organizzazione meno conosciuta.
- 
+ ```
   whois openai.com
-
+```
   **Domanda**: Quali differenze trovi rispetto a un dominio di grandi aziende? Esistono delle restrizioni o delle differenze di privacy?
 
 
@@ -232,11 +232,16 @@ https://linux.die.net/man/
 
 
 
+**Switching users**
 
+Switching between users on a Linux install is easy work thanks to the su command. Unless you are the root user (or using root permissions through sudo), then you are required to know two things to facilitate this transition of user accounts:
 
+    The user we wish to switch to
+    The user's password
 
-
-
+```
+su
+```
 
 
 
