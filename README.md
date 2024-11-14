@@ -285,14 +285,54 @@ Authenticated scans require the subject host's credentials and are more detailed
 ![Screenshot 2024-11-14 alle 14 14 45](https://github.com/user-attachments/assets/bb325d3f-e085-417d-9d1d-d36a81cd1871)
 
 
+![Screenshot 2024-11-14 alle 14 18 06](https://github.com/user-attachments/assets/ba2a8d22-8bff-4409-a525-7d67d28c3c63)
 
 
 
 
+The choice between vulnerability scan types depends on several factors. Authenticated scans are often used for internal vulnerability scanning, while unauthenticated scans are mostly used for external vulnerability scanning.
+
+
+## tools
+
+There are many tools available for performing automated vulnerability scanning, each offering unique features. Let’s discuss some of the widely used vulnerability scanners.
+Nessus
+
+Nessus was developed as an open-source project in 1998. It was later acquired by Tenable in 2005 and became proprietary software. It has extensive vulnerability scanning options and is widely used by large enterprises. It is available in both free and paid versions. The free version offers a limited number of scan features. In contrast, its commercial version offers advanced scanning features, unlimited scans, and professional support. Nessus needs to be deployed and managed on-premises.
+
+
+Qualys
+
+Qualys was developed in 1999 as a subscription-based vulnerability management solution. Along with continuous vulnerability scanning, it provides compliance checks and asset management. It automatically alerts on the vulnerabilities found during continuous monitoring. The best thing about Qualys is that it is a cloud-based platform, which means there is no extra cost or effort to keep it up and running on our physical hardware and manage it.
+
+
+Nexpose
+
+Nexpose was developed by Rapid7 in 2005 as a subscription-based vulnerability management solution. It continuously discovers new assets in the network and performs vulnerability scans on them. It gives vulnerability risk scores depending on the asset value and the vulnerability’s impact. It also provides compliance checks against various standards. Nexpose offers both on-premises and hybrid (cloud and on-premises) deployment modes.
+
+
+OpenVAS (Open Vulnerability Assessment System)
+
+OpenVAS is an open-source vulnerability assessment solution developed by Greenbone Security. It offers basic features with known vulnerabilities scanned through its database. It is less extensive than commercial tools; however, it gives you the flavor of a complete vulnerability scanner. It is beneficial for small organizations and individual systems. The next section will explore this tool in more detail by performing vulnerability scanning.
 
 
 
+Almost all vulnerability scanners offer reporting capabilities. They generate a detailed report after every vulnerability scan. These reports contain a list of the vulnerabilities discovered, their risk scores, and detailed descriptions. Some vulnerability scanners offer advanced reporting capabilities that provide remediation methods for all the discovered vulnerabilities and allow you to export these vulnerability assessment reports in different formats.
 
+Each of the tools mentioned above has its strengths. When choosing a suitable vulnerability scanner for your digital assets, you must consider the scope, resources, depth of analysis, and other factors.
+
+
+## CVE & CVSS
+
+
+
+Imagine yourself as the person sitting on the help desk of an IT complaint office managing many clients. You deal with hundreds of complaints daily regarding IT outages or several other problems requiring support from your company. Let’s see how CVE and CVSS help you track all these inquiries and complaints.
+CVE
+
+CVE stands for Common Vulnerabilities and Exposures. Consider CVE a unique number for each of your inquiries and complaints. If there is any update to any issue, you can easily follow up on that using the unique CVE number. Coming out of the help desk example scenario, this CVE number is a unique number given to vulnerabilities. This was developed by the MITRE Corporation. Whenever a new vulnerability is discovered in any software application, it is given a unique CVE number as a reference and published online in a CVE database. This publication aims to make people aware of these vulnerabilities so they can apply protective measures to remediate them. You can find the details of any previously discovered vulnerability in the CVE database. An example of a CVE number given to a vulnerability can be seen in the picture below:
+
+
+![Screenshot 2024-11-14 alle 14 21 15](https://github.com/user-attachments/assets/96f1a9e5-2d4d-4e18-a427-8f8751f40cc9)
 
 
 
