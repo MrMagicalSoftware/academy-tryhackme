@@ -249,6 +249,53 @@ su
 
 
 
+__________________________
+
+
+
+
+# Vulnerability Scanner Overview
+
+
+
+Imagine you are living in a small, lovely house. One day, you notice that your roof has many small holes. If not treated, these small holes can cause significant problems. During rain, water can come through these leaks and damage your furniture. Dust particles and insects can enter the house through these tiny holes. These small holes are a weakness in your home that can lead to significant problems in the future if not addressed timely. These weaknesses are known as Vulnerabilities. You start repairing the roof to fix this problem and keep your home safe. This process of fixing the vulnerabilities is known as Patching.
+
+Digital devices also have vulnerabilities inside their software or hardware. These are the weaknesses in the software programs or hardware that an attacker can leverage to compromise the digital device. These vulnerabilities may sound normal to you, like the small holes in the roof of a house that can be repaired anytime. However, the vulnerabilities in digital devices can lead to massive damage if not noticed on time. Hackers are always searching for these weaknesses as they make their way to your systems or networks by exploiting them. The interesting thing about digital device vulnerabilities is that you cannot notice them as easily as the holes in the roof until you dedicate yourself to hunting them down. After hunting these vulnerabilities down, the process of patching starts, where fixes are applied to protect the vulnerabilities.
+
+
+
+
+
+
+
+
+Vulnerability scanning is the inspection of digital systems to find weaknesses. Organizations carry critical information in their digital infrastructure. They must regularly scan their systems and networks for vulnerabilities, as attackers can leverage these vulnerabilities to compromise their digital infrastructure, resulting in a considerable loss. Vulnerability scanning is also an important compliance requirement of many regulatory bodies. Some security standards advise performing vulnerability scanning quarterly, while some advise performing it once a year.
+
+We saw how important it is to conduct vulnerability scans in your digital landscape regularly; however, manually looking for these weaknesses can be very hectic and miss some major ones. The bigger the network is, the slower the process of manual vulnerability scanning would be. This is no longer an issue as some efficient vulnerability scanners that perform automated vulnerability scanning are available in the market. This automated vulnerability scanning has made life much easier. You only need to install the tool and give it an IP address for a host or a network range for a network; it will start checking vulnerabilities and give you an easy-to-read report with the details of the vulnerabilities found.
+
+After identifying vulnerabilities, organizations fix them by making changes to a software program or system. These changes are referred to as Patches.
+
+Vulnerability scans can be categorized into many types; however, the major categorization of these scans are explained below:
+Authenticated vs. Unauthenticated Scans
+
+Authenticated scans require the subject host's credentials and are more detailed than unauthenticated scans. These types of scans are helpful for discovering the threat surface within the host. However, unauthenticated scans are conducted without providing any credentials of the subject host. These scans help identify the threat surface from outside the host.
+
+
+
+![Screenshot 2024-11-14 alle 14 14 45](https://github.com/user-attachments/assets/bb325d3f-e085-417d-9d1d-d36a81cd1871)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
